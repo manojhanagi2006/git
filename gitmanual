@@ -75,10 +75,10 @@ Situation, sometime you are working for problem to implement wishing messages in
        This command applies all stashed changes to master but shows  “changes not staged 
   For commit” and  greetings.c  file modified in red color.  (stack content  not cleared,
    check it by:  git stash list)
-19.	Add to staging area:      git add . or git add greetings.c
-20.	Commit the changes:    git commit -m “feature updated by welcome and good morn message” 
-21.	Clear stack stashes by :    git stash clear
-22.	check commit history log:   git log --all  (see output)
+19.	Add to staging area:      																											 $git add . or git add greetings.c
+20.	Commit the changes:    																												 $git commit -m “feature updated by welcome and good morn message” 
+21.	Clear stack stashes by :    																										 $git stash clear
+22.	check commit history log:   																										 $git log --all  (see output)
 B.
          1.   Follow same of method A  from 1 to 11
         2.    point 12, change like this:     git stash push -m “WIP feature updated : welcome msg impl”
